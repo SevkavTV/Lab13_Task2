@@ -10,7 +10,6 @@ from bstnode import BSTNode
 from linkedstack import LinkedStack
 
 
-
 class LinkedBST(AbstractCollection):
     """An link-based binary search tree implementation."""
 
@@ -424,5 +423,6 @@ class LinkedBST(AbstractCollection):
         print(binary_balance_time)
 
 
-bst = LinkedBST()
-bst.demo_bst('words.txt')
+if __name__ == '__main__':
+    bst = LinkedBST()
+    bst.demo_bst('words.txt')
